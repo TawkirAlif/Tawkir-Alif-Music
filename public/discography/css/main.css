@@ -1,0 +1,205 @@
+.topboxt-1{
+        color: black;
+        font-size: 15px;
+        width: 400px;
+}
+.tawkiraliflogo{
+        border-radius: 10px;
+        height: 20px;
+}
+.followmebtn{
+        padding: 10px 50px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        font-size: 15px;
+        font-weight: 600;
+}
+.followmebtn:hover{
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+}
+.afraid{
+        color: gray;
+}
+.soundcloud{
+        padding: 10px 50px;
+        border-radius: 10px;
+        background-color: orangered;
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+}
+.soundcloud:hover{
+        color: white;
+}
+.logo>img{
+        height: 100px;
+}
+
+.spotify{
+        padding: 10px 65px;
+        border-radius: 10px;
+        background-color: rgb(38, 205, 91);
+        font-size: 15px;
+        font-weight: 600;
+        color: white;   
+}
+.spotify:hover{
+        color: white;
+}
+
+.comingsoon{
+        margin-bottom: 20px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        color: white;  
+}
+.comingsoon:hover{
+        color: white;
+        background-color: rgb(62, 158, 255);
+}
+.photocontainer{
+        border-radius: 10px;
+        height: 500px;
+        object-fit: contain;
+}
+.social{
+        height: 32px;
+}
+.social1{
+        height: 25px;
+}
+.social2{
+        height: 50px;
+}
+.social3{
+        height: 40px;
+}
+.socialbox{
+        padding: 5px 10px;
+        height: 50px;
+        margin-top: 20px;
+        border-radius: 5px;
+
+}
+.socialbox2{
+        padding: 100px;
+        align-items: center;
+        justify-content: space-around;
+        margin: 10%;
+        border-radius: 20px;
+        transition: 2s;
+}
+.socialRoww{
+        display: flex;
+        justify-content: space-around;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        margin: 5px;
+}
+.sbox1>img{
+        border-radius: 10px;
+        background-color: whitesmoke;
+        cursor: pointer;  
+        object-fit: cover;  
+}
+.sbox{
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        margin: 5px;
+        cursor: pointer;  
+        object-fit: cover;      
+}
+.sbox:hover{
+        border: 0.5px solid rgb(0, 149, 255);
+}
+@media screen and (max-width: 600px){
+
+        .followmebtn:hover{
+                background-color: whitesmoke;
+                color: black;
+        } 
+        .topboxt-1{
+                margin-bottom: 50px;
+                margin-top: 20px;
+                background-color: rgba(245, 245, 245, 0.716);
+                padding: 10px;
+                border-radius: 10px;
+                color: black;
+                font-size: 15px;
+                width: 400px;
+                font-weight: 600;
+        }
+        .relese_title{
+                margin-bottom: 50px;
+                margin-top: 20px;
+                color: black;
+                font-weight: 600;
+                margin-top: 20px;
+                width: 300px;
+                border-radius: 3px;
+                padding: 10px;
+                background-color: rgba(245, 245, 245, 0.846);
+        }
+        .social{
+                height: 32px;
+        }
+        .social1{
+                height: 25px;
+        }
+        .socialbox{
+                padding: 5px 10px;
+                border-radius: 5px;
+        }
+}
+
+@media screen and (max-width: 400px){
+
+        .followmebtn:hover{
+                background-color: whitesmoke;
+                color: black;
+        } 
+        .topboxt-1{
+                margin-bottom: 50px;
+                margin-top: 20px;
+                background-color: rgba(245, 245, 245, 0.716);
+                padding: 10px;
+                border-radius: 10px;
+                color: black;
+                font-size: 15px;
+                width: 90%;
+                font-weight: 600;
+        }
+        .relese_title{
+                margin-bottom: 50px;
+                margin-top: 20px;
+                color: black;
+                font-weight: 600;
+                margin-top: 20px;
+                width: 60%;
+                border-radius: 3px;
+                padding: 10px;
+                background-color: rgba(245, 245, 245, 0.846);
+        }
+        .soundcloud,.spotify, .comingsoon{
+                padding: 10px 20px;
+        }
+        .single{
+                color: white;
+        }
+        .social{
+                height: 32px;
+        }
+        .social1{
+                height: 25px;
+        }
+        .socialbox{
+                padding: 5px 10px;
+                border-radius: 5px;
+        }
+}
+
